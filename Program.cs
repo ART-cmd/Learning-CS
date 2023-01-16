@@ -1,13 +1,14 @@
 ﻿using static CS.if_statement.ifstatements;
+using static CS.if_statement.ifstatements_2;
 using static CS.condition.conditions;
 using static CS.array.arrays;
 using static CS.looping.loopings;
-
 
 namespace learning_cs
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             /*
@@ -25,11 +26,30 @@ namespace learning_cs
             decimal: a precise decimal number with a larger range and precision than a float or double
             */
 
+            // IF-STATEMENT //
 
             OddEvenNumber(0);
-            CelsciustoFahrenheit(0);
-            CalculateGrade(0);
+            CelToFah(0);
+            CalGrade(0);
+            CalLeapYear(0);
+            CalPrime(0);
+            CalAgeteenager(0);
+            CalVowel('_');
+            CalMonth(0);
+            CalnumberPositive(0);
+            CheckValidPass("");
 
+            // IF-STATEMENT //
+
+
+            // loop //
+
+            LoopOnetoTen();
+            CalFactorial(0);
+            MultiplyTable(0);
+            Findsum(0);
+
+            // loop //
 
         }
     }
