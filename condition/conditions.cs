@@ -7,6 +7,9 @@ namespace CS.condition
 {
     public class conditions
     {
-        
+        static void condition(String[] args)
+        {
+            
+        }
     }
 }
